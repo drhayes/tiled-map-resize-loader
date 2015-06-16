@@ -5,7 +5,7 @@
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ``` javascript
-var url = require("file!tiled-map-resize-loader?scale=4./map1.json");
+var url = require("file!tiled-map-resize-loader?scale=4!./map1.json");
 // => emits file.json as file in the output directory and returns the public url
 // => returns i. e. "/public-path/0dcbbaa701328a3c262cfd45869e351f.json"
 // => every measurement and position in the map will be multiplied by scale.
