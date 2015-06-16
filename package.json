@@ -1,0 +1,27 @@
+{
+  "name": "tiled-map-resize-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for resizing Tiled maps on the fly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drhayes/tiled-map-resize-loader.git"
+  },
+  "keywords": [
+    "tiled",
+    "mapeditor",
+    "webpack"
+  ],
+  "author": "David Hayes <drhayes@gmail.com> (http://drhayes.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drhayes/tiled-map-resize-loader/issues"
+  },
+  "homepage": "https://github.com/drhayes/tiled-map-resize-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.9"
+  }
+}
